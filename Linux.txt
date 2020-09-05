@@ -1,0 +1,26 @@
+ls
+ 1556  ls -a 
+ 1557  rm .classpath .project .gitignore 
+ 1558  ls -a
+ 1559  ls src/
+ 1560  ls src/cs151/
+ 1561  mv src/cs151/*.java .
+ 1562  ls
+ 1563  rm -rf bin
+ 1564  rm -rf src
+ 1565  ls
+ 1566  vi Animal.java 
+ 1567  grep 'package' *.java
+ 1568  #sed 's/package cs151;//g' *.java
+ 1569  git status
+ 1570  git add .
+ 1571  git commit -am "deleted bin and src"
+ 1572  sed 's/package cs151;//g' *.java
+ 1573  sed -i 's/package cs151;//g' *.java
+ 1574  git status
+ 1575  git diff 
+ 1576  grep 'package' *.java
+ 1577  git commit -am "deleted package name"
+ 1578  git push origin master
+ 1579  history -10
+ 1580  history 
