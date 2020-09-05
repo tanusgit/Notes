@@ -1,0 +1,88 @@
+ls -a 
+ 1557  rm .classpath .project .gitignore 
+ 1558  ls -a
+ 1559  ls src/
+ 1560  ls src/cs151/
+ 1561  mv src/cs151/*.java .
+ 1562  ls
+ 1563  rm -rf bin
+ 1564  rm -rf src
+ 1565  ls
+ 1566  vi Animal.java 
+ 1567  grep 'package' *.java
+ 1568  #sed 's/package cs151;//g' *.java
+ 1569  git status
+ 1570  git add .
+ 1571  git commit -am "deleted bin and src"
+ 1572  sed 's/package cs151;//g' *.java
+ 1573  sed -i 's/package cs151;//g' *.java
+ 1574  git status
+ 1575  git diff 
+ 1576  grep 'package' *.java
+ 1577  git commit -am "deleted package name"
+ 1578  git push origin master
+ 1579  history -10
+ 1580  history 
+ 1581  cd Desktop/SJSU/CS151/SJSU_CS151_F2020/Assignment2
+ 1582  ls
+ 1583  git log
+ 1584  git branch 
+ 1585  git checkout 1f3d63fd0f016a119c48ff7b048e71348af0ebbd -b dev
+ 1586  git status
+ 1587  rm .project 
+ 1588  git checkout 1f3d63fd0f016a119c48ff7b048e71348af0ebbd -b dev
+ 1589  git status
+ 1590  ls
+ 1591  ls -a
+ 1592  ls src/cs151/
+ 1593  l
+ 1594  ls -al
+ 1595  vi .project 
+ 1596  vi .classpath 
+ 1597  ls
+ 1598  cd src/cs151/
+ 1599  ls
+ 1600  vi Cat.java 
+ 1601  ls -al
+ 1602  cd ..
+ 1603  ls -a
+ 1604  cd ..
+ 1605  ls -a
+ 1606  ls
+ 1607  git status
+ 1608  git diff
+ 1609  git status
+ 1610  git diff
+ 1611  ls -al
+ 1612  vi .classpath 
+ 1613  vi .project 
+ 1614  grep -ir fake *
+ 1615  ls
+ 1616  rm src/cs151/fake.java 
+ 1617  history
+ 1618  git diff
+ 1619  git branch 
+ 1620  git log
+ 1621  git show
+ 1622  ls
+ 1623  git diff
+ 1624  git status
+ 1625  git commit -am "added getters and setter to animal class"
+ 1626  git branch 
+ 1627  git show
+ 1628  git show > a.patch
+ 1629  vi a.patch 
+ 1630  git checkout master
+ 1631  ls
+ 1632  patch -p2 < a.patch
+ 1633  patch -p3 < a.patch
+ 1634  patch -p4 < a.patch
+ 1635  git status
+ 1636  git diff
+ 1637  git status
+ 1638  rm *.orig
+ 1639  git status
+ 1640  rm a.patch 
+ 1641  git commit -am "updated Animal class"
+ 1642  git push origin master
+ 1643  history
