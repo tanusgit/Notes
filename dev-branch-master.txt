@@ -1,0 +1,9 @@
+git commit on dev branch
+Go to parent directory
+delete foo
+cp -r Assignment3 foo
+git checkout master
+cp foo/src/ass3/*.java Assignment3/
+git commit 
+git push
+
