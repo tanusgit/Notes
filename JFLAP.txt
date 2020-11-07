@@ -1,0 +1,3 @@
+first install JFLAP then make it executable by this command chmod +x 'JFLAP7.1(1).jar' 
+then run it by this command java -jar ./'JFLAP7.1(1).jar' 
+then click on finite automata or anything from the list
