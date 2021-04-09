@@ -6,3 +6,4 @@ if(day === 'Wednesday'){
   return false;
 }
 }
+plantNeedsWater('Tuesday');
