@@ -11,3 +11,10 @@ console.log(secretMessage.join(''));
 //const bigNumbers = [100, 200, 300, 400, 500];
 
 // Create the smallNumbers array below
+console.log(secretMessage);
+
+const bigNumbers = [100, 200, 300, 400, 500];
+const smallNumbers = bigNumbers.map(b=> {
+  
+  return b / 100;
+});
