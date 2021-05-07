@@ -18,7 +18,7 @@ class Dog {
 }
 
 //making an instance of dog
-onst halley = new Dog('Halley');
+const halley = new Dog('Halley');
 console.log(halley.name); // Print name value to console
 console.log(halley.behavior); // Print behavior value to console
 halley.incrementBehavior(); // Add one to behavior
@@ -45,3 +45,15 @@ let halley = {
     this._behavior++;
   }
 }
+
+
+class Surgeon {
+  constructor(name, department) {
+    this.name = name;
+    this.department = department;
+  }
+}
+
+const surgeonRomero = new Surgeon('Francisco Romero', 'Cardiovascular');
+const surgeonJackson = new Surgeon('Ruth Jackson','Orthopedics');
+
