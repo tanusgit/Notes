@@ -1,6 +1,9 @@
 TO RUN DOCKER
 sudo docker exec -it 3a96e607dc39dbc9209ce5766a0b7a32cf2bd0088aa9ec85b103c12af8bee0aa /bin/bash
 
+to run docker:
+systemctl start docker
+
 cd opt/
 
 TO OPEN ORACLE 
