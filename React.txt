@@ -1,5 +1,10 @@
 
 sudo apt install npm
-npx create-react-app my-app
+sudo npm install -g create-react-app
+then make a folder called my-app
 cd my-app
+create-react-app bitsi
+//got an error fork-ts-checker-webpack-plugin@4.1.6: The engine "yarn" is incompatible with this module. Expected version ">=1.0.0".
+yarn start
+npm i yarn
 npm start
